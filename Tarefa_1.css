@@ -1,24 +1,35 @@
-#header {
-    background-color: brown;
-}
 
-.lista_cabecalho {
+#header {
     font-size: 30px;
     position: absolute;
     display: flex;
     flex-direction: row;
-    align-content: flex-start;
-    gap: 100px;
-    justify-content: space-evenly;
+    align-items: center;
     width: 100vw;
-    top: 25px;
-    background-color: brown;
+    background-color: rgb(42, 91, 165);
+    height: 130px;
+    top: 0px;
+}
+
+#lista-inicio {
+    gap: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+#header a {
+    transition: 200ms;
+}
+
+main {
+    margin: 15px;
 }
 
 a:hover {
-    text-decoration: underline;
     font-size: 32px;
-    transition: 200ms;
+    transition: 200ms linear;
 }
 
 .itens {
@@ -26,22 +37,121 @@ a:hover {
     color: black;
 }
 
-#main p {
+#main-inicio p {
     position: relative;
-    top: 50px;
+    top: 160px;
     width: 75vw;
     left: 190px;
     font-size: 25px;
+    margin-bottom: 35px;
+    line-height: 35px;
 }
 
 footer {
     position: relative;
-    top: 100px;
+    margin-top: 250px;
     width:100vw;
-    background-color: brown;
+    background-color:rgb(42, 91, 165);
     height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
 }
+
+.git-logo, .linkedin-logo, .instagram-logo, .whatsapp-logo {
+    max-width: 100px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.git-logo:hover, .linkedin-logo:hover, .instagram-logo:hover, .whatsapp-logo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+footer {
+    display: flex;
+    align-content: center;
+    position: relative;
+    top: 160px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    top: 100px;
+}
+
+footer p {
+    position: relative;
+    top: 140px;
+    left: 45vw;
+}
+
+.minha-foto, .academia-imagem, .viagens-imagem {
+    position: relative;
+    top: 185px;
+    max-width: 200px;
+    border-radius: 20px;
+    float: left;
+    margin: 10px;
+    left: -15px;
+}
+
+#main-sobre {
+    height: 800px;
+    width: 940px;
+    margin: 25px auto;
+}
+
+#main-sobre p, #main-planos p {
+    position: relative;
+    top: 180px;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 25px;
+} 
+
+#main-planos {
+    height: 900px;
+    width: 940px;
+    margin: 25px auto;
+}
+
+.programacao-imagem {
+    position: relative;
+    top: 185px;
+    max-width: 200px;
+    border-radius: 20px;
+    float: right;
+    margin: 10px;
+    left: 0px;
+}
+
+#main-video {
+    height: 500px;
+}
+
+.video {
+    position: relative;
+    top: 200px;
+    margin: 2em auto;
+    width: 500px;
+}
+
+#main-video p {
+    position: relative;
+    bottom: -220px;
+    left: 550px;
+    font-size: 30px;
+}
+
+
+
+
+
