@@ -1,0 +1,47 @@
+#header {
+    background-color: brown;
+}
+
+.lista_cabecalho {
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    gap: 100px;
+    justify-content: space-evenly;
+    width: 100vw;
+    top: 25px;
+    background-color: brown;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 32px;
+    transition: 200ms;
+}
+
+.itens {
+    text-decoration: none;
+    color: black;
+}
+
+#main p {
+    position: relative;
+    top: 50px;
+    width: 75vw;
+    left: 190px;
+    font-size: 25px;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+    width:100vw;
+    background-color: brown;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
