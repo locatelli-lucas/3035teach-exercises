@@ -1,4 +1,9 @@
 
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
 #header {
     font-size: 30px;
     position: absolute;
@@ -16,11 +21,11 @@
     width: 100vw;
     display: flex;
     justify-content: center;
-
 }
 
 #header a {
     transition: 200ms;
+    color: aliceblue;
 }
 
 main {
@@ -147,7 +152,7 @@ footer p {
 #main-video p {
     position: relative;
     bottom: -220px;
-    left: 550px;
+    left: 630px;
     font-size: 30px;
 }
 
